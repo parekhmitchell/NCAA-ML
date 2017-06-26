@@ -5,17 +5,11 @@ import NCAAScraper as ns
 import os
 
 # Variables
-<<<<<<< HEAD
 siteList = [216, 148, 150, 857, 145, 153, 152, 217]     # offensive scrape
 #siteList = [214, 859, 149, 146, 215, 518, 931]         # defensive scrape
 #siteList = [474, 642, 640, 151, 168]                   # misc scrape
 #fileName = 'complete_data.csv'                         # name of file to save data to
-=======
-siteList = [216, 148, 150, 857, 145, 153, 152, 217]    # offensive scrape
-#siteList = [214, 859, 149, 146, 215, 518, 931]         # defensive scrape
-#siteList = [474, 642, 640, 151, 168]                    # misc scrape
 fileName = 'test_data.csv'                              # name of file to save data to
->>>>>>> master
 path = os.getcwd().replace('src', 'data\\') + fileName  # path variable
 
 # Collecting Names of Teams
